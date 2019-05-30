@@ -11,7 +11,7 @@ Follow-up: what if you can't use division?
 #include <iostream>
 #include <vector>
 
-std::vector<int> g_Array = { 1, 2, 3, 4, 5 };
+static std::vector<int> g_Array = { 1, 2, 3, 4, 5 };
 
 int GetProduct(const std::vector<int>::iterator& start, const std::vector<int>::iterator& end)
 {

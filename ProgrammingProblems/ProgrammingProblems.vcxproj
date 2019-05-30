@@ -118,6 +118,7 @@
     <ClCompile Include="src\EncodedMessage.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Products.cpp" />
+    <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp" />
     <ClCompile Include="src\Unival.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
