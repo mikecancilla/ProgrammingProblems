@@ -1,9 +1,11 @@
 #include <iostream>
 
 extern void DoEncodedMessage();
+extern void DoProducts();
 
 int main()
 {
-	DoEncodedMessage();
+	DoProducts();
+	//DoEncodedMessage();
 	std::cin.get();
 }
