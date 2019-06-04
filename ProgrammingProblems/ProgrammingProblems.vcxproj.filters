@@ -30,5 +30,14 @@
     <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\JobScheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AutoComplete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CalculatePiMonteCarlo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
