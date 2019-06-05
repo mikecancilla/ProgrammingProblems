@@ -121,6 +121,7 @@
     <ClCompile Include="src\JobScheduler.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Products.cpp" />
+    <ClCompile Include="src\RandomNumberFromStream.cpp" />
     <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp" />
     <ClCompile Include="src\Unival.cpp" />
   </ItemGroup>
