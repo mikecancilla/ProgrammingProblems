@@ -8,6 +8,7 @@ extern void DoJobScheduler();
 extern void DoPIMonteCarlo();
 extern void DoRandomNumberFromStream();
 extern void DoMaxValueSubArray();
+extern void DoLinkedListIntersection();
 
 int main()
 {
@@ -20,7 +21,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoMaxValueSubArray();
+    DoLinkedListIntersection();
+    //DoMaxValueSubArray();
 	//DoRandomNumberFromStream();
 	//DoPIMonteCarlo();
 	//DoJobScheduler();
