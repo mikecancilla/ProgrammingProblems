@@ -115,8 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ClassroomTimes.cpp" />
     <ClCompile Include="src\AutoComplete.cpp" />
     <ClCompile Include="src\CalculatePiMonteCarlo.cpp" />
+    <ClCompile Include="src\ClassroomTimes.cpp" />
     <ClCompile Include="src\EncodedMessage.cpp" />
     <ClCompile Include="src\JobScheduler.cpp" />
     <ClCompile Include="src\LinkedListIntersection.cpp" />
