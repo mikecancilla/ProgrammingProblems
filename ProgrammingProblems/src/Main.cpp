@@ -9,6 +9,7 @@ extern void DoPIMonteCarlo();
 extern void DoRandomNumberFromStream();
 extern void DoMaxValueSubArray();
 extern void DoLinkedListIntersection();
+extern void DoClassroomTimes();
 
 int main()
 {
@@ -21,7 +22,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoLinkedListIntersection();
+    DoClassroomTimes();
+    //DoLinkedListIntersection();
     //DoMaxValueSubArray();
 	//DoRandomNumberFromStream();
 	//DoPIMonteCarlo();
