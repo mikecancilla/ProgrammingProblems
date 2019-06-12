@@ -10,6 +10,7 @@ extern void DoRandomNumberFromStream();
 extern void DoMaxValueSubArray();
 extern void DoLinkedListIntersection();
 extern void DoClassroomTimes();
+extern void DoStringFromDictionary();
 
 int main()
 {
@@ -22,7 +23,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoClassroomTimes();
+    DoStringFromDictionary();
+    //DoClassroomTimes();
     //DoLinkedListIntersection();
     //DoMaxValueSubArray();
 	//DoRandomNumberFromStream();

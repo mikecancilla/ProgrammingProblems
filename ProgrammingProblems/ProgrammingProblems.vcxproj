@@ -115,7 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ClassroomTimes.cpp" />
     <ClCompile Include="src\AutoComplete.cpp" />
     <ClCompile Include="src\CalculatePiMonteCarlo.cpp" />
     <ClCompile Include="src\ClassroomTimes.cpp" />
@@ -126,6 +125,7 @@
     <ClCompile Include="src\MaxValueOfSubArray.cpp" />
     <ClCompile Include="src\Products.cpp" />
     <ClCompile Include="src\RandomNumberFromStream.cpp" />
+    <ClCompile Include="src\StringFromDictionary.cpp" />
     <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp" />
     <ClCompile Include="src\Unival.cpp" />
   </ItemGroup>
