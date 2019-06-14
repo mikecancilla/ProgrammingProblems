@@ -48,13 +48,13 @@
     <ClCompile Include="src\LinkedListIntersection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ClassroomTimes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\ClassroomTimes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\StringFromDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WallTilePath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

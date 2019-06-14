@@ -11,6 +11,7 @@ extern void DoMaxValueSubArray();
 extern void DoLinkedListIntersection();
 extern void DoClassroomTimes();
 extern void DoStringFromDictionary();
+extern void DoWallTilePath();
 
 int main()
 {
@@ -23,7 +24,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoStringFromDictionary();
+    DoWallTilePath();
+    //DoStringFromDictionary();
     //DoClassroomTimes();
     //DoLinkedListIntersection();
     //DoMaxValueSubArray();
