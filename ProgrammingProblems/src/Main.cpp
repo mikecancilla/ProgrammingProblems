@@ -12,6 +12,8 @@ extern void DoLinkedListIntersection();
 extern void DoClassroomTimes();
 extern void DoStringFromDictionary();
 extern void DoWallTilePath();
+extern void DoBracketMatching();
+extern void DoAutoComplete();
 
 int main()
 {
@@ -24,7 +26,9 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoWallTilePath();
+    DoAutoComplete();
+	//DoBracketMatching();
+	//DoWallTilePath();
     //DoStringFromDictionary();
     //DoClassroomTimes();
     //DoLinkedListIntersection();

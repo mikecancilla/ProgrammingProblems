@@ -51,16 +51,6 @@ bool AreChildrenLocked(Node *node)
 	if(AreChildrenLocked(node->left) ||
 	   AreChildrenLocked(node->right))
 		return true;
-}
-
-bool lock(Node *node)
-{
-	if(!AreParentsLocked(node) &&
-       !AreChildrenLocked(node))
-	{
-		node->locked = true;
-		return true;
-	}
 
 	return false;
 }
