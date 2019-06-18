@@ -14,6 +14,7 @@ extern void DoStringFromDictionary();
 extern void DoWallTilePath();
 extern void DoBracketMatching();
 extern void DoAutoComplete();
+extern void DoTextJustification();
 
 int main()
 {
@@ -26,7 +27,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoAutoComplete();
+    DoTextJustification();
+    //DoAutoComplete();
 	//DoBracketMatching();
 	//DoWallTilePath();
     //DoStringFromDictionary();
