@@ -15,6 +15,7 @@ extern void DoWallTilePath();
 extern void DoBracketMatching();
 extern void DoAutoComplete();
 extern void DoTextJustification();
+extern void DoRunLength();
 
 int main()
 {
@@ -27,7 +28,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoTextJustification();
+    DoRunLength();
+    //DoTextJustification();
     //DoAutoComplete();
 	//DoBracketMatching();
 	//DoWallTilePath();
