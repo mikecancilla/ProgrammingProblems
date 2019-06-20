@@ -16,6 +16,7 @@ extern void DoBracketMatching();
 extern void DoAutoComplete();
 extern void DoTextJustification();
 extern void DoRunLength();
+extern void DoTrappedWater();
 
 int main()
 {
@@ -28,7 +29,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoRunLength();
+    DoTrappedWater();
+    //DoRunLength();
     //DoTextJustification();
     //DoAutoComplete();
 	//DoBracketMatching();

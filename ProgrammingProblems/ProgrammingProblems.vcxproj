@@ -133,6 +133,7 @@
     <ClCompile Include="src\StringFromDictionary.cpp" />
     <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp" />
     <ClCompile Include="src\TextJustification.cpp" />
+    <ClCompile Include="src\TrappedWater.cpp" />
     <ClCompile Include="src\Unival.cpp" />
     <ClCompile Include="src\WallTilePath.cpp" />
   </ItemGroup>
