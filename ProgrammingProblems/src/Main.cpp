@@ -17,6 +17,7 @@ extern void DoAutoComplete();
 extern void DoTextJustification();
 extern void DoRunLength();
 extern void DoTrappedWater();
+extern void DoEditDistance();
 
 int main()
 {
@@ -29,7 +30,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoTrappedWater();
+    DoEditDistance();
+    //DoTrappedWater();
     //DoRunLength();
     //DoTextJustification();
     //DoAutoComplete();
