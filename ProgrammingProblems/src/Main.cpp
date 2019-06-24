@@ -18,6 +18,7 @@ extern void DoTextJustification();
 extern void DoRunLength();
 extern void DoTrappedWater();
 extern void DoEditDistance();
+extern void DoPalindrome();
 
 int main()
 {
@@ -30,7 +31,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoEditDistance();
+    DoPalindrome();
+    //DoEditDistance();
     //DoTrappedWater();
     //DoRunLength();
     //DoTextJustification();
