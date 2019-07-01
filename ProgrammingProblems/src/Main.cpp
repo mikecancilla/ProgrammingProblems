@@ -20,6 +20,8 @@ extern void DoTrappedWater();
 extern void DoEditDistance();
 extern void DoPalindrome();
 extern void DoRGBSort();
+extern void DoPowerSet();
+extern void DoFlightItinerary();
 
 int main()
 {
@@ -32,7 +34,9 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoRGBSort();
+    DoFlightItinerary();
+    //DoPowerSet();
+    //DoRGBSort();
     //DoPalindrome();
     //DoEditDistance();
     //DoTrappedWater();

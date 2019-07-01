@@ -15,17 +15,27 @@ struct Node
     Node *right;
 };
 
-unsigned int FindSecondGreatest(Node *node)
+Node* FindMaxNode(Node* node)
 {
-    if(nullptr == node->right)
-        return node->parent->value;
+    if(node->right)
+        FindMaxNode(node->right);
 
-    FindSecondGreatest(node->right);
+    return node;
 }
 
 void DoSecondGreatestLinkedList()
 {
-    Node *root;
+    Node *root = nullptr;
+    Node *node = nullptr;
 
-    unsigned int secondGreatest = FindSecondGreatest(root);
+    node = FindMaxNode(root);
+
+    // We now have a pointer the the highest value node.
+    // The second greatest will be the max of the left sub tree or parent
+    if(node->left)
+        node = FindMaxNode(node->left);
+    else
+        node = node->parent;
+
+    // node->value is now second greatest
 }
