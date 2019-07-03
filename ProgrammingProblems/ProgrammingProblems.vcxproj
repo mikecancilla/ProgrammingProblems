@@ -136,6 +136,7 @@
     <ClCompile Include="src\RunLength.cpp" />
     <ClCompile Include="src\SecondGreatestLinkedList.cpp" />
     <ClCompile Include="src\FlightItinerary.cpp" />
+    <ClCompile Include="src\Stack.cpp" />
     <ClCompile Include="src\StringFromDictionary.cpp" />
     <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp" />
     <ClCompile Include="src\TextJustification.cpp" />

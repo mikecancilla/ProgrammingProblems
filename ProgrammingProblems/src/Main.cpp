@@ -22,6 +22,7 @@ extern void DoPalindrome();
 extern void DoRGBSort();
 extern void DoPowerSet();
 extern void DoFlightItinerary();
+extern void DoStack();
 
 int main()
 {
@@ -34,7 +35,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoFlightItinerary();
+    DoStack();
+    //DoFlightItinerary();
     //DoPowerSet();
     //DoRGBSort();
     //DoPalindrome();
