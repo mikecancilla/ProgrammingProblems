@@ -23,6 +23,9 @@ extern void DoRGBSort();
 extern void DoPowerSet();
 extern void DoFlightItinerary();
 extern void DoStack();
+//extern void DoLinkedListNoMalloc();
+extern "C" void DoLinkedListNoMalloc_c();
+extern void DoMaxValueSubArrayKadane();
 
 int main()
 {
@@ -35,7 +38,10 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoStack();
+    DoMaxValueSubArrayKadane();
+    //DoLinkedListNoMalloc_c();
+    //DoLinkedListNoMalloc();
+    //DoStack();
     //DoFlightItinerary();
     //DoPowerSet();
     //DoRGBSort();

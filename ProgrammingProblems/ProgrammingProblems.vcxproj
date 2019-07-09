@@ -123,9 +123,12 @@
     <ClCompile Include="src\EncodedMessage.cpp" />
     <ClCompile Include="src\JobScheduler.cpp" />
     <ClCompile Include="src\LinkedListIntersection.cpp" />
+    <ClCompile Include="src\LinkedListNoMalloc.c" />
+    <ClCompile Include="src\LinkedListNoMalloc.cpp" />
     <ClCompile Include="src\LockBinaryTree.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\MaxValueOfSubArray.cpp" />
+    <ClCompile Include="src\MaxValueOfSubArrayKadane.cpp" />
     <ClCompile Include="src\Palindrome.cpp" />
     <ClCompile Include="src\PowerOfASet.cpp" />
     <ClCompile Include="src\Products.cpp" />
