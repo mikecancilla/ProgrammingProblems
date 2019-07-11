@@ -27,6 +27,7 @@ extern void DoStack();
 extern "C" void DoLinkedListNoMalloc_c();
 extern void DoMaxValueSubArrayKadane();
 extern void DoArithmeticExpressionBinaryTree();
+extern void DoShuffleArray();
 
 int main()
 {
@@ -39,7 +40,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoArithmeticExpressionBinaryTree();
+    DoShuffleArray();
+    //DoArithmeticExpressionBinaryTree();
     //DoMaxValueSubArrayKadane();
     //DoLinkedListNoMalloc_c();
     //DoLinkedListNoMalloc();
