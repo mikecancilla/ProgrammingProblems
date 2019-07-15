@@ -141,6 +141,7 @@
     <ClCompile Include="src\RunLength.cpp" />
     <ClCompile Include="src\SecondGreatestLinkedList.cpp" />
     <ClCompile Include="src\FlightItinerary.cpp" />
+    <ClCompile Include="src\ShortenURL.cpp" />
     <ClCompile Include="src\ShuffleArray.cpp" />
     <ClCompile Include="src\Stack.cpp" />
     <ClCompile Include="src\StringFromDictionary.cpp" />

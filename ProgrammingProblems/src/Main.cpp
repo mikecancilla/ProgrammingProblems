@@ -29,6 +29,7 @@ extern void DoMaxValueSubArrayKadane();
 extern void DoArithmeticExpressionBinaryTree();
 extern void DoShuffleArray();
 extern void DoLRUCache();
+extern void DoShortURL();
 
 int main()
 {
@@ -41,7 +42,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoLRUCache();
+    DoShortURL();
+    //DoLRUCache();
     //DoShuffleArray();
     //DoArithmeticExpressionBinaryTree();
     //DoMaxValueSubArrayKadane();
