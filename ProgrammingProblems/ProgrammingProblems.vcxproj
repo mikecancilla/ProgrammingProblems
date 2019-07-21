@@ -132,6 +132,7 @@
     <ClCompile Include="src\MaxValueOfSubArray.cpp" />
     <ClCompile Include="src\MaxValueOfSubArrayKadane.cpp" />
     <ClCompile Include="src\Palindrome.cpp" />
+    <ClCompile Include="src\pow.cpp" />
     <ClCompile Include="src\PowerOfASet.cpp" />
     <ClCompile Include="src\Products.cpp" />
     <ClCompile Include="src\RandomNumberFromStream.cpp" />

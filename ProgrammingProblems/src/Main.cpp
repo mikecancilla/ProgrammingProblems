@@ -30,6 +30,7 @@ extern void DoArithmeticExpressionBinaryTree();
 extern void DoShuffleArray();
 extern void DoLRUCache();
 extern void DoShortURL();
+extern void DoPow();
 
 int main()
 {
@@ -42,7 +43,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoShortURL();
+    DoPow();
+    //DoShortURL();
     //DoLRUCache();
     //DoShuffleArray();
     //DoArithmeticExpressionBinaryTree();
