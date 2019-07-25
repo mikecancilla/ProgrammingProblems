@@ -31,6 +31,7 @@ extern void DoShuffleArray();
 extern void DoLRUCache();
 extern void DoShortURL();
 extern void DoPow();
+extern void DoCircularPrint();
 
 int main()
 {
@@ -43,7 +44,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoPow();
+    DoCircularPrint();
+    //DoPow();
     //DoShortURL();
     //DoLRUCache();
     //DoShuffleArray();

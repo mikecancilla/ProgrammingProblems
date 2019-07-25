@@ -119,6 +119,7 @@
     <ClCompile Include="src\AutoComplete.cpp" />
     <ClCompile Include="src\BracketMatching.cpp" />
     <ClCompile Include="src\CalculatePiMonteCarlo.cpp" />
+    <ClCompile Include="src\CircularPrint.cpp" />
     <ClCompile Include="src\ClassroomTimes.cpp" />
     <ClCompile Include="src\EditDistance.cpp" />
     <ClCompile Include="src\EncodedMessage.cpp" />
