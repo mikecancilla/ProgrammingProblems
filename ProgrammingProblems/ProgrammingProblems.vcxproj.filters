@@ -126,5 +126,8 @@
     <ClCompile Include="src\CircularPrint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\LinkedListNoMalloc_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

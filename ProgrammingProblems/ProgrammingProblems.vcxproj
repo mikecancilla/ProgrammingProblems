@@ -127,6 +127,7 @@
     <ClCompile Include="src\LinkedListIntersection.cpp" />
     <ClCompile Include="src\LinkedListNoMalloc.c" />
     <ClCompile Include="src\LinkedListNoMalloc.cpp" />
+    <ClCompile Include="src\LinkedListNoMalloc_2.c" />
     <ClCompile Include="src\LockBinaryTree.cpp" />
     <ClCompile Include="src\LRUCache.cpp" />
     <ClCompile Include="src\Main.cpp" />

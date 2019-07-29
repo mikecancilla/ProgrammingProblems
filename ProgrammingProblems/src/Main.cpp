@@ -32,6 +32,7 @@ extern void DoLRUCache();
 extern void DoShortURL();
 extern void DoPow();
 extern void DoCircularPrint();
+extern "C" void DoLinkedListNoMalloc2_c();
 
 int main()
 {
@@ -44,7 +45,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoCircularPrint();
+    DoLinkedListNoMalloc2_c();
+    //DoCircularPrint();
     //DoPow();
     //DoShortURL();
     //DoLRUCache();
