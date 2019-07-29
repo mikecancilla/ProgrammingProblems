@@ -91,7 +91,7 @@ void DoLinkedListNoMalloc2_c()
     {
         if(!LinkedListInsert(&pHead, numberSet[i]))
         {
-            printf("Error: could not insert element number %d, value %d\n", i, numberSet[i]);
+            printf("Error: could not insert element number %u, value %lu\n", i, numberSet[i]);
             break;
         }
     }
@@ -100,9 +100,9 @@ void DoLinkedListNoMalloc2_c()
 
     while(pHead && pHead->pNext != NULL)
     {
-        printf("%d, ", pHead->value);
+        printf("%lu, ", pHead->value);
         pHead = pHead->pNext;
     }
 
-    printf("%d\n", pHead->value);
+    printf("%lu\n", pHead->value);
 }
