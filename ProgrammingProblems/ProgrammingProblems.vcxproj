@@ -131,6 +131,7 @@
     <ClCompile Include="src\LockBinaryTree.cpp" />
     <ClCompile Include="src\LRUCache.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\MaximumPathSum.cpp" />
     <ClCompile Include="src\MaxValueOfSubArray.cpp" />
     <ClCompile Include="src\MaxValueOfSubArrayKadane.cpp" />
     <ClCompile Include="src\Palindrome.cpp" />

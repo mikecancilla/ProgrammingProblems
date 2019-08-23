@@ -33,6 +33,7 @@ extern void DoShortURL();
 extern void DoPow();
 extern void DoCircularPrint();
 extern "C" void DoLinkedListNoMalloc2_c();
+extern void DoMaxTreeSum();
 
 int main()
 {
@@ -45,7 +46,8 @@ int main()
 	std::cout << "Sizeof num:" << sizeof(num) << std::endl;
 */
 
-    DoLinkedListNoMalloc2_c();
+    DoMaxTreeSum();
+    //DoLinkedListNoMalloc2_c();
     //DoCircularPrint();
     //DoPow();
     //DoShortURL();
