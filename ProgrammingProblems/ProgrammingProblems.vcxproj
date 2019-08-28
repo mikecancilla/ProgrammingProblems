@@ -42,7 +42,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -117,13 +117,26 @@
   <ItemGroup>
     <ClCompile Include="src\ArithmeticExpressionBinaryTree.cpp" />
     <ClCompile Include="src\AutoComplete.cpp" />
+    <ClCompile Include="src\Bfs.cpp" />
     <ClCompile Include="src\BracketMatching.cpp" />
     <ClCompile Include="src\CalculatePiMonteCarlo.cpp" />
     <ClCompile Include="src\CircularPrint.cpp" />
     <ClCompile Include="src\ClassroomTimes.cpp" />
+    <ClCompile Include="src\CodeWarrior\BusStop.cpp" />
+    <ClCompile Include="src\CodeWarrior\DigitalRoot.cpp" />
+    <ClCompile Include="src\CodeWarrior\Evaporator.cpp" />
+    <ClCompile Include="src\CodeWarrior\IsSquare.cpp" />
+    <ClCompile Include="src\CodeWarrior\NumVowels.cpp" />
+    <ClCompile Include="src\CodeWarrior\Palindrome.cpp" />
+    <ClCompile Include="src\CodeWarrior\Rot13.cpp" />
+    <ClCompile Include="src\CodeWarrior\Snail.cpp" />
+    <ClCompile Include="src\CodeWarrior\Tribonacci.cpp" />
+    <ClCompile Include="src\CodeWarrior\WhichAreIn.cpp" />
+    <ClCompile Include="src\CoinChange.cpp" />
     <ClCompile Include="src\EditDistance.cpp" />
     <ClCompile Include="src\EncodedMessage.cpp" />
     <ClCompile Include="src\JobScheduler.cpp" />
+    <ClCompile Include="src\KeyValueTime.cpp" />
     <ClCompile Include="src\LinkedListIntersection.cpp" />
     <ClCompile Include="src\LinkedListNoMalloc.c" />
     <ClCompile Include="src\LinkedListNoMalloc.cpp" />
@@ -148,6 +161,7 @@
     <ClCompile Include="src\ShortenURL.cpp" />
     <ClCompile Include="src\ShuffleArray.cpp" />
     <ClCompile Include="src\Stack.cpp" />
+    <ClCompile Include="src\stl\set.cpp" />
     <ClCompile Include="src\StringFromDictionary.cpp" />
     <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp" />
     <ClCompile Include="src\TextJustification.cpp" />
