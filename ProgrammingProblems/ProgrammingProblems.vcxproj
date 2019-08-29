@@ -120,11 +120,14 @@
     <ClCompile Include="src\Bfs.cpp" />
     <ClCompile Include="src\BracketMatching.cpp" />
     <ClCompile Include="src\CalculatePiMonteCarlo.cpp" />
+    <ClCompile Include="src\CalculateSquareRoot.cpp" />
     <ClCompile Include="src\CircularPrint.cpp" />
     <ClCompile Include="src\ClassroomTimes.cpp" />
     <ClCompile Include="src\CodeWarrior\BusStop.cpp" />
     <ClCompile Include="src\CodeWarrior\DigitalRoot.cpp" />
     <ClCompile Include="src\CodeWarrior\Evaporator.cpp" />
+    <ClCompile Include="src\CodeWarrior\FactorialTrailingZeroes.cpp" />
+    <ClCompile Include="src\CodeWarrior\GoingToZero.cpp" />
     <ClCompile Include="src\CodeWarrior\IsSquare.cpp" />
     <ClCompile Include="src\CodeWarrior\NumVowels.cpp" />
     <ClCompile Include="src\CodeWarrior\Palindrome.cpp" />
@@ -135,6 +138,7 @@
     <ClCompile Include="src\CoinChange.cpp" />
     <ClCompile Include="src\EditDistance.cpp" />
     <ClCompile Include="src\EncodedMessage.cpp" />
+    <ClCompile Include="src\FactorialBigNumbers.cpp" />
     <ClCompile Include="src\JobScheduler.cpp" />
     <ClCompile Include="src\KeyValueTime.cpp" />
     <ClCompile Include="src\LinkedListIntersection.cpp" />
@@ -142,6 +146,7 @@
     <ClCompile Include="src\LinkedListNoMalloc.cpp" />
     <ClCompile Include="src\LinkedListNoMalloc_2.c" />
     <ClCompile Include="src\LockBinaryTree.cpp" />
+    <ClCompile Include="src\LongestConsecutiveElements.cpp" />
     <ClCompile Include="src\LRUCache.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\MaximumPathSum.cpp" />

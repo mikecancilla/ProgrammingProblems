@@ -40,6 +40,11 @@ extern void DoCircularPrint();
 extern "C" void DoLinkedListNoMalloc2_c();
 extern void DoMaxTreeSum();
 extern void DoBFSDFS();
+extern void DoLongestConsecutiveElements();
+extern void DoGoingToZero();
+extern void DoFactorialBigNumbers();
+extern void DoMyBigFactorial();
+extern void DoCalculateSquareRoot();
 
 // Take every 2nd char (evens) from the string, create a string out of them, S1
 // Take every 2nd char (odds) from the string, create a string out of them, S2
@@ -106,15 +111,23 @@ void DoCodeWarriorStuff()
     //void DoRot13();
     //DoRot13();
 
-    void DoChange();
-    DoChange();
+    //void DoChange();
+    //DoChange();
+
+    void DoFactorialTrailingZeroes();
+    DoFactorialTrailingZeroes();
 }
 
 int main()
 {
     //DoSTLStuff();
 
-    DoCodeWarriorStuff();
+    //DoCodeWarriorStuff();
+
+    // Pointer to Lambda function
+
+//    auto p = [](int x, int y) { std::cout << x << " " << y << std::endl; };
+//    p(1, 2);
 
 //    std::string s = "hitheremyfriend";
 //    for(auto &x : s)
@@ -139,7 +152,11 @@ int main()
 //    std::string s = "This is a test!";
 //    s = encrypt(s, 1);
 
-
+    DoCalculateSquareRoot();
+    //DoMyBigFactorial();
+    //DoFactorialBigNumbers();
+    //DoGoingToZero();
+    //DoLongestConsecutiveElements();
     //DoBFSDFS();
     //DoMaxTreeSum();
     //DoLinkedListNoMalloc2_c();

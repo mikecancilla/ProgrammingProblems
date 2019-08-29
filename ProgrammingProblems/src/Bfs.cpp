@@ -112,9 +112,9 @@ void DoBFSDFS()
     root->right->right->left = std::make_shared<BfsNode>(8);
 
     // BFS Search
-    //std::queue<std::shared_ptr<BfsNode>> q;
-    //q.push(std::move(root));
-    //BFSSearch(&q);
+    std::queue<std::shared_ptr<BfsNode>> q;
+    q.push(root);
+    BFSSearch(&q);
 
     // DFS Search
     DFSSearch(root);
