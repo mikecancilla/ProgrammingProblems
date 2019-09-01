@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ContiguousSum.cpp" />
     <ClCompile Include="src\ArithmeticExpressionBinaryTree.cpp" />
     <ClCompile Include="src\AutoComplete.cpp" />
     <ClCompile Include="src\Bfs.cpp" />
@@ -123,6 +124,7 @@
     <ClCompile Include="src\CalculateSquareRoot.cpp" />
     <ClCompile Include="src\CircularPrint.cpp" />
     <ClCompile Include="src\ClassroomTimes.cpp" />
+    <ClCompile Include="src\CodeWarrior\BallUpwards.cpp" />
     <ClCompile Include="src\CodeWarrior\BusStop.cpp" />
     <ClCompile Include="src\CodeWarrior\DigitalRoot.cpp" />
     <ClCompile Include="src\CodeWarrior\Evaporator.cpp" />
@@ -133,12 +135,15 @@
     <ClCompile Include="src\CodeWarrior\Palindrome.cpp" />
     <ClCompile Include="src\CodeWarrior\Rot13.cpp" />
     <ClCompile Include="src\CodeWarrior\Snail.cpp" />
+    <ClCompile Include="src\CodeWarrior\SupermarketQueue.cpp" />
     <ClCompile Include="src\CodeWarrior\Tribonacci.cpp" />
     <ClCompile Include="src\CodeWarrior\WhichAreIn.cpp" />
     <ClCompile Include="src\CoinChange.cpp" />
+    <ClCompile Include="src\CountingBits.cpp" />
     <ClCompile Include="src\EditDistance.cpp" />
     <ClCompile Include="src\EncodedMessage.cpp" />
     <ClCompile Include="src\FactorialBigNumbers.cpp" />
+    <ClCompile Include="src\IsPrime.cpp" />
     <ClCompile Include="src\JobScheduler.cpp" />
     <ClCompile Include="src\KeyValueTime.cpp" />
     <ClCompile Include="src\LinkedListIntersection.cpp" />
@@ -146,6 +151,7 @@
     <ClCompile Include="src\LinkedListNoMalloc.cpp" />
     <ClCompile Include="src\LinkedListNoMalloc_2.c" />
     <ClCompile Include="src\LockBinaryTree.cpp" />
+    <ClCompile Include="src\LongestCommonPrefix.cpp" />
     <ClCompile Include="src\LongestConsecutiveElements.cpp" />
     <ClCompile Include="src\LRUCache.cpp" />
     <ClCompile Include="src\Main.cpp" />
@@ -153,19 +159,24 @@
     <ClCompile Include="src\MaxValueOfSubArray.cpp" />
     <ClCompile Include="src\MaxValueOfSubArrayKadane.cpp" />
     <ClCompile Include="src\Palindrome.cpp" />
+    <ClCompile Include="src\PathThroughGameBoard.cpp" />
     <ClCompile Include="src\pow.cpp" />
     <ClCompile Include="src\PowerOfASet.cpp" />
     <ClCompile Include="src\Products.cpp" />
     <ClCompile Include="src\RandomNumberFromStream.cpp" />
     <ClCompile Include="src\Regex.cpp" />
     <ClCompile Include="src\RemoveFromSinglyLinkedList.cpp" />
+    <ClCompile Include="src\ReverseBits.cpp" />
+    <ClCompile Include="src\ReverseNumber.cpp" />
     <ClCompile Include="src\RGBSort.cpp" />
+    <ClCompile Include="src\RomanNumerals.cpp" />
     <ClCompile Include="src\RunLength.cpp" />
     <ClCompile Include="src\SecondGreatestLinkedList.cpp" />
     <ClCompile Include="src\FlightItinerary.cpp" />
     <ClCompile Include="src\ShortenURL.cpp" />
     <ClCompile Include="src\ShuffleArray.cpp" />
     <ClCompile Include="src\Stack.cpp" />
+    <ClCompile Include="src\stl\Hash.cpp" />
     <ClCompile Include="src\stl\set.cpp" />
     <ClCompile Include="src\StringFromDictionary.cpp" />
     <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp" />
