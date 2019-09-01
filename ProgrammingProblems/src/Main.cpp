@@ -45,6 +45,15 @@ extern void DoGoingToZero();
 extern void DoFactorialBigNumbers();
 extern void DoMyBigFactorial();
 extern void DoCalculateSquareRoot();
+extern void DoIsPrime();
+extern void DoFindWord();
+extern void DoTwoSum();
+extern void DoReverseNumber();
+extern void DoReverseBits();
+extern void DoCountingBits();
+extern void DoRomanNumerals();
+extern void DoLongestCommonPrefix();
+extern void DoContiguousSum();
 
 // Take every 2nd char (evens) from the string, create a string out of them, S1
 // Take every 2nd char (odds) from the string, create a string out of them, S2
@@ -79,7 +88,7 @@ void DoSTLStuff()
     DoSetStuff();
 }
 
-void DoCodeWarriorStuff()
+void DoCodeWarsStuff()
 {
     //extern void DoIsSquare();
     //DoIsSquare();
@@ -114,15 +123,24 @@ void DoCodeWarriorStuff()
     //void DoChange();
     //DoChange();
 
-    void DoFactorialTrailingZeroes();
-    DoFactorialTrailingZeroes();
+    //void DoFactorialTrailingZeroes();
+    //DoFactorialTrailingZeroes();
+
+    //void DoBallUpwards();
+    //DoBallUpwards();
+
+    void DoSuperMarketQueue();
+    DoSuperMarketQueue();
 }
 
 int main()
 {
     //DoSTLStuff();
 
-    //DoCodeWarriorStuff();
+    //DoCodeWarsStuff();
+
+    //int n = 2;
+    //std::vector<long> queues(n, 0);
 
     // Pointer to Lambda function
 
@@ -152,7 +170,16 @@ int main()
 //    std::string s = "This is a test!";
 //    s = encrypt(s, 1);
 
-    DoCalculateSquareRoot();
+    DoContiguousSum();
+    //DoLongestCommonPrefix();
+    //DoRomanNumerals();
+    //DoCountingBits();
+    //DoReverseBits();
+    //DoReverseNumber();
+    //DoTwoSum();
+    //DoFindWord();
+    //DoIsPrime();
+    //DoCalculateSquareRoot();
     //DoMyBigFactorial();
     //DoFactorialBigNumbers();
     //DoGoingToZero();

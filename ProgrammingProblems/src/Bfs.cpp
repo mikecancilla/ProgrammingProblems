@@ -3,6 +3,7 @@
 #include <iostream>
 #include <memory>
 #include <queue>
+#include <stack>
 
 #define UNIQUE_PTR 0
 
@@ -69,7 +70,7 @@ void DoBFS()
     BFSSearch(&q);
 }
 #else
-void BFSSearch(std::queue<std::shared_ptr<BfsNode>> *q)
+void BFSSearchRecursive(std::queue<std::shared_ptr<BfsNode>> *q)
 {
     if(0 == q->size())
         return;
@@ -83,7 +84,25 @@ void BFSSearch(std::queue<std::shared_ptr<BfsNode>> *q)
 
     q->pop();
 
-    BFSSearch(q);
+    BFSSearchRecursive(q);
+}
+
+void BFSSearchIterative(std::shared_ptr<BfsNode> node)
+{
+    std::queue<std::shared_ptr<BfsNode>> q;
+    q.push(node);
+
+    while(!q.empty())
+    {
+        if(nullptr != q.front())
+        {
+            std::cout << q.front()->value << std::endl;
+            q.push(q.front()->left);
+            q.push(q.front()->right);
+        }
+
+        q.pop();
+    }
 }
 
 void DFSSearch(std::shared_ptr<BfsNode> node)
@@ -95,6 +114,26 @@ void DFSSearch(std::shared_ptr<BfsNode> node)
 
     DFSSearch(node->left);
     DFSSearch(node->right);
+}
+
+void DFSSearchIterative(std::shared_ptr<BfsNode> node)
+{
+    std::stack<std::shared_ptr<BfsNode>> s;
+    s.push(node);
+
+    while(!s.empty())
+    {
+        std::shared_ptr<BfsNode> n = s.top();
+        std::cout << n->value << std::endl;
+
+        s.pop();
+
+        if(n->right)
+            s.push(n->right);
+
+        if(n->left)
+            s.push(n->left);
+    }
 }
 
 void DoBFSDFS()
@@ -112,11 +151,10 @@ void DoBFSDFS()
     root->right->right->left = std::make_shared<BfsNode>(8);
 
     // BFS Search
-    std::queue<std::shared_ptr<BfsNode>> q;
-    q.push(root);
-    BFSSearch(&q);
+    BFSSearchIterative(root);
 
     // DFS Search
     DFSSearch(root);
+    DFSSearchIterative(root);
 }
 #endif
