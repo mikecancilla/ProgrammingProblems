@@ -81,9 +81,6 @@
     <ClCompile Include="src\EditDistance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Palindrome.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\RGBSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -159,9 +156,6 @@
     <ClCompile Include="src\CodeWarrior\DigitalRoot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\CodeWarrior\Palindrome.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\CodeWarrior\WhichAreIn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -219,7 +213,31 @@
     <ClCompile Include="src\LongestCommonPrefix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ContiguousSum.cpp">
+    <ClCompile Include="src\stl\Reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DefangIPAddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValidPalindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ContiguousSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GridTraversal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MinimumWindowSubstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShiftAString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CodeWarrior\LongestPalindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PalindromeInsert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

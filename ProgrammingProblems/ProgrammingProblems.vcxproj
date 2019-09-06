@@ -115,7 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ContiguousSum.cpp" />
+    <ClCompile Include="src\ContiguousSum.cpp" />
+    <ClCompile Include="src\GridTraversal.cpp" />
+    <ClCompile Include="src\MinimumWindowSubstring.cpp" />
+    <ClCompile Include="src\ShiftAString.cpp" />
     <ClCompile Include="src\ArithmeticExpressionBinaryTree.cpp" />
     <ClCompile Include="src\AutoComplete.cpp" />
     <ClCompile Include="src\Bfs.cpp" />
@@ -132,7 +135,7 @@
     <ClCompile Include="src\CodeWarrior\GoingToZero.cpp" />
     <ClCompile Include="src\CodeWarrior\IsSquare.cpp" />
     <ClCompile Include="src\CodeWarrior\NumVowels.cpp" />
-    <ClCompile Include="src\CodeWarrior\Palindrome.cpp" />
+    <ClCompile Include="src\CodeWarrior\LongestPalindrome.cpp" />
     <ClCompile Include="src\CodeWarrior\Rot13.cpp" />
     <ClCompile Include="src\CodeWarrior\Snail.cpp" />
     <ClCompile Include="src\CodeWarrior\SupermarketQueue.cpp" />
@@ -140,6 +143,7 @@
     <ClCompile Include="src\CodeWarrior\WhichAreIn.cpp" />
     <ClCompile Include="src\CoinChange.cpp" />
     <ClCompile Include="src\CountingBits.cpp" />
+    <ClCompile Include="src\DefangIPAddress.cpp" />
     <ClCompile Include="src\EditDistance.cpp" />
     <ClCompile Include="src\EncodedMessage.cpp" />
     <ClCompile Include="src\FactorialBigNumbers.cpp" />
@@ -158,7 +162,7 @@
     <ClCompile Include="src\MaximumPathSum.cpp" />
     <ClCompile Include="src\MaxValueOfSubArray.cpp" />
     <ClCompile Include="src\MaxValueOfSubArrayKadane.cpp" />
-    <ClCompile Include="src\Palindrome.cpp" />
+    <ClCompile Include="src\PalindromeInsert.cpp" />
     <ClCompile Include="src\PathThroughGameBoard.cpp" />
     <ClCompile Include="src\pow.cpp" />
     <ClCompile Include="src\PowerOfASet.cpp" />
@@ -177,12 +181,14 @@
     <ClCompile Include="src\ShuffleArray.cpp" />
     <ClCompile Include="src\Stack.cpp" />
     <ClCompile Include="src\stl\Hash.cpp" />
+    <ClCompile Include="src\stl\Reverse.cpp" />
     <ClCompile Include="src\stl\set.cpp" />
     <ClCompile Include="src\StringFromDictionary.cpp" />
     <ClCompile Include="src\SumOfNonAdjacentNumbers.cpp" />
     <ClCompile Include="src\TextJustification.cpp" />
     <ClCompile Include="src\TrappedWater.cpp" />
     <ClCompile Include="src\Unival.cpp" />
+    <ClCompile Include="src\ValidPalindrome.cpp" />
     <ClCompile Include="src\WallTilePath.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -124,6 +124,7 @@ void DFSSearchIterative(std::shared_ptr<BfsNode> node)
     while(!s.empty())
     {
         std::shared_ptr<BfsNode> n = s.top();
+
         std::cout << n->value << std::endl;
 
         s.pop();

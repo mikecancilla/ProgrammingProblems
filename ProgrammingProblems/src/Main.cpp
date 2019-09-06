@@ -54,6 +54,11 @@ extern void DoCountingBits();
 extern void DoRomanNumerals();
 extern void DoLongestCommonPrefix();
 extern void DoContiguousSum();
+extern void DoMinimumWindowSubString();
+extern void DoGridTraversal();
+extern void DoDefangIP();
+extern void DoValidPalindrome();
+extern void DoShiftAString();
 
 // Take every 2nd char (evens) from the string, create a string out of them, S1
 // Take every 2nd char (odds) from the string, create a string out of them, S2
@@ -84,8 +89,11 @@ std::string encrypt(std::string text, int n)
 
 void DoSTLStuff()
 {
-    extern void DoSetStuff();
-    DoSetStuff();
+    //extern void DoSetStuff();
+    //DoSetStuff();
+
+    extern void DoReverse();
+    DoReverse();
 }
 
 void DoCodeWarsStuff()
@@ -170,7 +178,12 @@ int main()
 //    std::string s = "This is a test!";
 //    s = encrypt(s, 1);
 
-    DoContiguousSum();
+    DoShiftAString();
+    //DoValidPalindrome();
+    //DoDefangIP();
+    //DoGridTraversal();
+    //DoMinimumWindowSubString();
+    //DoContiguousSum();
     //DoLongestCommonPrefix();
     //DoRomanNumerals();
     //DoCountingBits();
