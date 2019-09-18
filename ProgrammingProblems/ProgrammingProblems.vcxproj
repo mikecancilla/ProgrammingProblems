@@ -115,7 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DoubleSingleton.cpp" />
+    <ClCompile Include="JewelsAndStones.cpp" />
     <ClCompile Include="src\ContiguousSum.cpp" />
+    <ClCompile Include="src\FindAnagrams.cpp" />
     <ClCompile Include="src\GridTraversal.cpp" />
     <ClCompile Include="src\MinimumWindowSubstring.cpp" />
     <ClCompile Include="src\ShiftAString.cpp" />
@@ -190,6 +193,7 @@
     <ClCompile Include="src\Unival.cpp" />
     <ClCompile Include="src\ValidPalindrome.cpp" />
     <ClCompile Include="src\WallTilePath.cpp" />
+    <ClCompile Include="SubtreeOfAnotherTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

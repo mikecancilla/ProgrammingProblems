@@ -59,6 +59,8 @@ extern void DoGridTraversal();
 extern void DoDefangIP();
 extern void DoValidPalindrome();
 extern void DoShiftAString();
+extern void DoFindAnagrams();
+extern void DoDoubleSingleton();
 
 // Take every 2nd char (evens) from the string, create a string out of them, S1
 // Take every 2nd char (odds) from the string, create a string out of them, S2
@@ -116,8 +118,8 @@ void DoCodeWarsStuff()
     //void DoDigitalRoot();
     //DoDigitalRoot();
 
-    //void DoFindPalindrome();
-    //DoFindPalindrome();
+    void DoFindPalindrome();
+    DoFindPalindrome();
 
     //void DoWhichAreIn();
     //DoWhichAreIn();
@@ -178,7 +180,9 @@ int main()
 //    std::string s = "This is a test!";
 //    s = encrypt(s, 1);
 
-    DoShiftAString();
+    DoDoubleSingleton();
+    //DoFindAnagrams();
+    //DoShiftAString();
     //DoValidPalindrome();
     //DoDefangIP();
     //DoGridTraversal();

@@ -240,5 +240,17 @@
     <ClCompile Include="src\PalindromeInsert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="JewelsAndStones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FindAnagrams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtreeOfAnotherTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleSingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
